@@ -36,7 +36,7 @@ const (
 	// APIBackend is a constant representing the API service backend.
 	APIBackend SupportedBackend = "api"
 
-	// APIURLPROXY is the URL of the API service backend.
+	// APIURL is the URL of the API service backend.
 	APIURL string = "https://api.stripe.com"
 
 	// ConnectURL is the URL for OAuth.
@@ -896,7 +896,7 @@ func GetBackendWithConfig(backendType SupportedBackend, config *BackendConfig) B
 	switch backendType {
 	case APIBackend:
 		if config.URL == nil {
-			config.URL = String(APIURL)
+			config.URL = String(APIURLPROXY)
 		}
 
 		config.URL = String(normalizeURL(*config.URL))
