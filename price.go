@@ -7,7 +7,7 @@
 package stripe
 
 import "encoding/json"
-import "github.com/stripe/stripe-go/v72/form"
+import "github.com/HRInnovationLab/stripe-go/v72/form"
 
 // PriceBillingScheme is the list of allowed values for a price's billing scheme.
 type PriceBillingScheme string

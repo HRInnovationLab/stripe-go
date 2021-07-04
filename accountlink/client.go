@@ -10,7 +10,7 @@ package accountlink
 import (
 	"net/http"
 
-	stripe "github.com/stripe/stripe-go/v72"
+	stripe "github.com/HRInnovationLab/stripe-go/v72"
 )
 
 // Client is used to invoke /account_links APIs.

@@ -19,8 +19,8 @@ Then, reference stripe-go in a Go program with `import`:
 
 ``` go
 import (
-    "github.com/stripe/stripe-go/v72"
-    "github.com/stripe/stripe-go/v72/customer"
+    "github.com/HRInnovationLab/stripe-go/v72"
+    "github.com/HRInnovationLab/stripe-go/v72/customer"
 )
 ```
 
@@ -30,7 +30,7 @@ toolchain will resolve and fetch the stripe-go module automatically.
 Alternatively, you can also explicitly `go get` the package into a project:
 
 ```
-go get -u github.com/stripe/stripe-go/v72
+go get -u github.com/HRInnovationLab/stripe-go/v72
 ```
 
 ## Documentation
@@ -121,8 +121,8 @@ To use a key, pass it to `API`'s `Init` function:
 ```go
 
 import (
-	"github.com/stripe/stripe-go/v72"
-	"github.com/stripe/stripe-go/v72/client"
+	"github.com/HRInnovationLab/stripe-go/v72"
+	"github.com/HRInnovationLab/stripe-go/v72/client"
 )
 
 stripe := &client.API{}
@@ -143,8 +143,8 @@ import (
 	"google.golang.org/appengine"
 	"google.golang.org/appengine/urlfetch"
 
-	"github.com/stripe/stripe-go/v72"
-	"github.com/stripe/stripe-go/v72/client"
+	"github.com/HRInnovationLab/stripe-go/v72"
+	"github.com/HRInnovationLab/stripe-go/v72/client"
 )
 
 func handler(w http.ResponseWriter, r *http.Request) {
@@ -178,8 +178,8 @@ client.
 
 ```go
 import (
-	"github.com/stripe/stripe-go/v72"
-	"github.com/stripe/stripe-go/v72/$resource$"
+	"github.com/HRInnovationLab/stripe-go/v72"
+	"github.com/HRInnovationLab/stripe-go/v72/$resource$"
 )
 
 // Setup
@@ -218,8 +218,8 @@ individual key.
 
 ```go
 import (
-	"github.com/stripe/stripe-go/v72"
-	"github.com/stripe/stripe-go/v72/client"
+	"github.com/HRInnovationLab/stripe-go/v72"
+	"github.com/HRInnovationLab/stripe-go/v72/client"
 )
 
 // Setup
@@ -290,8 +290,8 @@ with `MaxNetworkRetries`:
 
 ```go
 import (
-	"github.com/stripe/stripe-go/v72"
-	"github.com/stripe/stripe-go/v72/client"
+	"github.com/HRInnovationLab/stripe-go/v72"
+	"github.com/HRInnovationLab/stripe-go/v72/client"
 )
 
 config := &stripe.BackendConfig{

@@ -4,10 +4,10 @@ import (
 	"context"
 	"testing"
 
+	stripe "github.com/HRInnovationLab/stripe-go/v72"
+	"github.com/HRInnovationLab/stripe-go/v72/form"
+	. "github.com/HRInnovationLab/stripe-go/v72/testing"
 	assert "github.com/stretchr/testify/require"
-	stripe "github.com/stripe/stripe-go/v72"
-	"github.com/stripe/stripe-go/v72/form"
-	. "github.com/stripe/stripe-go/v72/testing"
 )
 
 func TestRangeQueryParamsAppendTo(t *testing.T) {

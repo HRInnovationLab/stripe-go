@@ -3,9 +3,9 @@ package creditnote
 import (
 	"testing"
 
+	stripe "github.com/HRInnovationLab/stripe-go/v72"
+	_ "github.com/HRInnovationLab/stripe-go/v72/testing"
 	assert "github.com/stretchr/testify/require"
-	stripe "github.com/stripe/stripe-go/v72"
-	_ "github.com/stripe/stripe-go/v72/testing"
 )
 
 func TestCreditNoteGet(t *testing.T) {

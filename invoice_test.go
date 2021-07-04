@@ -4,8 +4,8 @@ import (
 	"encoding/json"
 	"testing"
 
+	"github.com/HRInnovationLab/stripe-go/v72/form"
 	assert "github.com/stretchr/testify/require"
-	"github.com/stripe/stripe-go/v72/form"
 )
 
 func TestInvoiceParams_AppendTo(t *testing.T) {

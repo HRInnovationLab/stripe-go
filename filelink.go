@@ -7,7 +7,7 @@
 package stripe
 
 import "encoding/json"
-import "github.com/stripe/stripe-go/v72/form"
+import "github.com/HRInnovationLab/stripe-go/v72/form"
 
 // FileLinkParams is the set of parameters that can be used when creating or updating a file link.
 type FileLinkParams struct {

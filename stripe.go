@@ -22,7 +22,7 @@ import (
 	"sync"
 	"time"
 
-	"github.com/stripe/stripe-go/v72/form"
+	"github.com/HRInnovationLab/stripe-go/v72/form"
 )
 
 //
