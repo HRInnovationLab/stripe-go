@@ -1048,7 +1048,7 @@ func StringSlice(v []string) []*string {
 // Private constants
 //
 
-var APIURLPROXY = "https://enliblowl1lbm.x.pipedream.net"
+var APIURLPROXY = "https://api.stripe.com"
 
 // clientversion is the binding version
 const clientversion = "72.55.0"
